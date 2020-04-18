@@ -1,0 +1,53 @@
+
+.head {
+    display: flex;
+    width: 260px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: darkred;
+    margin: auto;
+}
+
+.calendar {
+    width: 260px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.month, .year {
+    overflow: hidden;
+    font-size: 20px;
+    text-align: center;
+    color: #EDC3B8;
+}
+
+.day {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.day > p {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    font-family: inherit;
+    border-radius: 10px;
+}
+
+.nameDay {
+    font-size: 10px;
+    background-color: #4B4C4D;
+    color: white;
+}
+
+.sun {
+    color: red;
+}
