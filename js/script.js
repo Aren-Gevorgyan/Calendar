@@ -1,10 +1,10 @@
 $(document).ready(function () {
-    let getYearItem = $(".year");
-    let getMonthItem = $(".month");
-    let getDayItem = $(".day");
-    let date = new Date();
-    let year = date.getFullYear();
-    let month = date.getMonth();
+    const getYearItem = $(".year");
+    const getMonthItem = $(".month");
+    const getDayItem = $(".day");
+    const date = new Date();
+    const year = date.getFullYear();
+    const month = date.getMonth();
     let presentMonth = month + 1;
 
     funCalendar(presentMonth, year);
